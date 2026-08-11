@@ -12,6 +12,7 @@ export const site = {
   email: "tommmyolive@gmail.com",
   phone: "+234 705 400 9804",
   github: "https://github.com/olivetomi",
+  twitter: "https://x.com/olivetomi",
   linkedin: "https://linkedin.com/in/olive-ogunsakin-4572662aa/",
   resumeUrl: "/Olive's_Resume.pdf",
   avatar: "/images/Olive.png",
@@ -259,6 +260,7 @@ export const timeline: TimelineEntry[] = [
 
 export const socials = [
   { label: "GitHub", href: site.github, icon: "github" as const },
+  { label: "X / Twitter", href: site.twitter, icon: "twitter" as const },
   { label: "LinkedIn", href: site.linkedin, icon: "linkedin" as const },
   { label: "Email", href: `mailto:${site.email}`, icon: "mail" as const },
 ];
