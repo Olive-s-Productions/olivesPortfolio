@@ -36,18 +36,12 @@ export const metadata: Metadata = {
     siteName: site.shortName,
     images: [
       {
-        url: "/images/og-image-placeholder.jpg",
+        url: "/images/Olive.png",
         width: 1200,
         height: 630,
         alt: `${site.name} — ${site.role}`,
       },
     ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${site.name} | ${site.role}`,
-    description: site.description,
-    images: ["/images/og-image-placeholder.jpg"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -70,7 +64,7 @@ export default function RootLayout({
       "@type": "PostalAddress",
       addressCountry: "NG",
     },
-    sameAs: [site.github, site.linkedin, site.twitter],
+    sameAs: [site.github, site.linkedin],
   };
 
   return (
