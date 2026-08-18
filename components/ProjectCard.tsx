@@ -24,7 +24,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           className="object-cover"
         />
         <span className="absolute bottom-2 right-3 rounded-full bg-ink/70 px-2 py-0.5 font-mono text-[10px] uppercase tracking-wide text-ash-100">
-          Replace screenshot
+          
         </span>
       </div>
 
