@@ -8,7 +8,7 @@ export const site = {
   description:
     "Portfolio of Ogunsakin Olive Tomilola — a full-stack developer from Nigeria building web applications, mobile apps, backend systems, and cloud-integrated solutions.",
   // personal Info
-  url: "https://your-domain-here.com",
+  url: "https://olivetomi.vercel.app",
   email: "tommmyolive@gmail.com",
   phone: "+234 705 400 9804",
   github: "https://github.com/olivetomi",
@@ -158,6 +158,29 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/olivetomi",
     liveUrl: "https://dailygracedevotional.is-great.net/admin/dashboard.php",
     image: "/images/cdms.png",
+  },
+  {
+    slug: "word-of-grace-international-gospel-centre-website",
+    title: "Word of Grace International Gospel Centre Website",
+    category: "Full-Stack",
+    description:
+      "A modern church website with a responsive front end and admin dashboard for managing events.",
+    longDescription:
+      "This production-ready website for Word of Grace International Gospel Centre in Abuja, Nigeria, combines a polished church site with a full admin workflow for event management. Church staff can publish recurring and multi-day events, manage flyers, update schedules, and maintain a clean public-facing calendar without touching code. The platform is powered by Next.js, Supabase, and Vercel to keep the site fast, content-driven, and easy to manage.",
+    technologies: ["Next.js", "React", "Supabase", "PostgreSQL", "Vercel"],
+    features: [
+      "Multi-page church website",
+      "Recurring event scheduling",
+      "Monthly calendar and day-detail panel",
+      "Event modal with flyer and map directions",
+      "Admin dashboard with CRUD controls",
+      "Featured event announcements and popup carousel",
+      "Flyer uploads and contact form",
+      "Responsive design and SEO setup",
+    ],
+    githubUrl: "https://github.com/olivetomi/WGIGC",
+    liveUrl: "https://wgigc.vercel.app",
+    image: "/images/WGimage.png",
   },
   {
   slug: "daily-devotion-app",
